@@ -1,14 +1,18 @@
+import { Nav } from "../Components/Nav";
+import { Card } from "../Components/Card";
+import { Footer } from "../Components/Footer";
 
-import { Card } from '../Components/Card'
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
     <div>
-        <h2>this is my first website using react</h2>
-        <Card />
+      <Nav />
+      <Card />
+      <hr />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
