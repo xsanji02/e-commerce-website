@@ -1,55 +1,24 @@
-import React from "react";
-import product from "../Database/product";
+import React from 'react'
 import { FaShoppingBag } from "react-icons/fa";
 import { BiSolidStar } from "react-icons/bi";
+import product from "../Database/product.js";
 
-export const Shirt = () => {
+export const Pants = () => {
   return (
-    <div className="shirt-border">
-      <div className="card-container">
-        <div className="card">
-          <img src={product.shirt1.image} class="card-image" alt="Card Image" />
-          <div className="card-body">
-            <h3 className="card-title">{product.shirt1.title}</h3>
-            <p className="card-text">{product.shirt1.description}</p>
-            <div className="card-section">
-              <div className="price-div">
-                <p class="card-text text-warning fw-bold ">
-                  <span class="before-price">
-                    ${product.shirt1.beforePrice}
-                  </span>
-                  ${product.shirt1.price}
-                </p>
-              </div>
-              <div className="icon-div">
-                <FaShoppingBag className="button-cart" />
-              </div>
-            </div>
-            <div className="ratings">
-              <BiSolidStar className="start-icon" />
-              <BiSolidStar className="start-icon" />
-              <BiSolidStar className="start-icon" />
-              <BiSolidStar className="start-icon" />
-              <BiSolidStar className="start-icon" />(
-              <span>{product.shirt1.rating} reviews</span>)
-            </div>
-            <button type="button" class="btn btn-warning mt-3">
-              BUY NOW
-            </button>
-          </div>
-        </div>
+    <div className='pants-border'>
+        <div className="card-container">
         <div class="card">
-          <img src={product.shirt2.image} class="card-image" alt="images" />
+          <img src={product.pants1.image} class="card-image" alt="images" />
           <div class="card-body">
-            <h5 class="card-title">{product.shirt2.title}</h5>
-            <p class="card-text">{product.shirt2.description}</p>
+            <h5 class="card-title text-center">{product.pants1.title}</h5>
+            <p class="card-text">{product.pants1.description}</p>
             <div className="card-section">
               <div className="price-div">
                 <p class="card-text text-warning fw-bold ">
                   <span class="before-price">
-                    ${product.shirt2.beforePrice}
+                    ${product.pants1.beforePrice}
                   </span>
-                  ${product.shirt2.price}
+                  ${product.pants1.price}
                 </p>
               </div>
               <div className="icon-div">
@@ -62,38 +31,7 @@ export const Shirt = () => {
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />(
-              <span>{product.shirt2.rating} reviews</span>)
-            </div>
-            <button type="button" class="btn btn-warning mt-1">
-              BUY NOW
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <img src={product.shirt3.image} class="card-image" alt="images" />
-          <div class="card-body">
-            <h5 class="card-title">{product.shirt3.title}</h5>
-            <p class="card-text">{product.shirt3.description}</p>
-            <div className="card-section">
-              <div className="price-div">
-                <p class="card-text text-warning fw-bold ">
-                  <span class="before-price">
-                    ${product.shirt3.beforePrice}
-                  </span>
-                  ${product.shirt3.price}
-                </p>
-              </div>
-              <div className="icon-div">
-                <FaShoppingBag className="button-cart" />
-              </div>
-            </div>
-            <div className="ratings">
-              <BiSolidStar className="start-icon" />
-              <BiSolidStar className="start-icon" />
-              <BiSolidStar className="start-icon" />
-              <BiSolidStar className="start-icon" />
-              <BiSolidStar className="start-icon" />(
-              <span>{product.shirt3.rating} reviews</span>)
+              <span>{product.pants1.rating} reviews</span>)
             </div>
             <button type="button" class="btn btn-warning mt-2">
               BUY NOW
@@ -101,17 +39,17 @@ export const Shirt = () => {
           </div>
         </div>
         <div class="card">
-          <img src={product.shirt4.image} class="card-image" alt="images" />
+          <img src={product.pants2.image} class="card-image" alt="images" />
           <div class="card-body">
-            <h5 class="card-title">{product.shirt4.title}</h5>
-            <p class="card-text">{product.shirt4.description}</p>
+            <h5 class="card-title text-center">{product.pants2.title}</h5>
+            <p class="card-text">{product.pants2.description}</p>
             <div className="card-section">
               <div className="price-div">
                 <p class="card-text text-warning fw-bold ">
                   <span class="before-price">
-                    ${product.shirt4.beforePrice}
+                    ${product.pants2.beforePrice}
                   </span>
-                  ${product.shirt4.price}
+                  ${product.pants2.price}
                 </p>
               </div>
               <div className="icon-div">
@@ -124,7 +62,69 @@ export const Shirt = () => {
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />(
-              <span>{product.shirt4.rating} reviews</span>)
+              <span>{product.pants2.rating} reviews</span>)
+            </div>
+            <button type="button" class="btn btn-warning mt-2">
+              BUY NOW
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img src={product.pants3.image} class="card-image" alt="images" />
+          <div class="card-body">
+            <h5 class="card-title text-center">{product.pants3.title}</h5>
+            <p class="card-text">{product.pants3.description}</p>
+            <div className="card-section">
+              <div className="price-div">
+                <p class="card-text text-warning fw-bold ">
+                  <span class="before-price">
+                    ${product.pants3.beforePrice}
+                  </span>
+                  ${product.pants3.price}
+                </p>
+              </div>
+              <div className="icon-div">
+                <FaShoppingBag className="button-cart" />
+              </div>
+            </div>
+            <div className="ratings">
+              <BiSolidStar className="start-icon" />
+              <BiSolidStar className="start-icon" />
+              <BiSolidStar className="start-icon" />
+              <BiSolidStar className="start-icon" />
+              <BiSolidStar className="start-icon" />(
+              <span>{product.pants3.rating} reviews</span>)
+            </div>
+            <button type="button" class="btn btn-warning mt-2">
+              BUY NOW
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img src={product.pants4.image} class="card-image" alt="images" />
+          <div class="card-body">
+            <h5 class="card-title text-center">{product.pants4.title}</h5>
+            <p class="card-text">{product.pants4.description}</p>
+            <div className="card-section">
+              <div className="price-div">
+                <p class="card-text text-warning fw-bold ">
+                  <span class="before-price">
+                    ${product.pants4.beforePrice}
+                  </span>
+                  ${product.pants4.price}
+                </p>
+              </div>
+              <div className="icon-div">
+                <FaShoppingBag className="button-cart" />
+              </div>
+            </div>
+            <div className="ratings">
+              <BiSolidStar className="start-icon" />
+              <BiSolidStar className="start-icon" />
+              <BiSolidStar className="start-icon" />
+              <BiSolidStar className="start-icon" />
+              <BiSolidStar className="start-icon" />(
+              <span>{product.pants4.rating} reviews</span>)
             </div>
             <button type="button" class="btn btn-warning mt-2">
               BUY NOW
@@ -134,17 +134,17 @@ export const Shirt = () => {
       </div>
       <div className="card-container">
         <div class="card">
-          <img src={product.shirt5.image} class="card-image" alt="images" />
+          <img src={product.pants5.image} class="card-image" alt="images" />
           <div class="card-body">
-            <h5 class="card-title">{product.shirt5.title}</h5>
-            <p class="card-text">{product.shirt5.description}</p>
+            <h5 class="card-title text-center">{product.pants5.title}</h5>
+            <p class="card-text">{product.pants5.description}</p>
             <div className="card-section">
               <div className="price-div">
                 <p class="card-text text-warning fw-bold ">
                   <span class="before-price">
-                    ${product.shirt5.beforePrice}
+                    ${product.pants5.beforePrice}
                   </span>
-                  ${product.shirt5.price}
+                  ${product.pants5.price}
                 </p>
               </div>
               <div className="icon-div">
@@ -157,7 +157,7 @@ export const Shirt = () => {
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />(
-              <span>{product.shirt5.rating} reviews</span>)
+              <span>{product.pants5.rating} reviews</span>)
             </div>
             <button type="button" class="btn btn-warning mt-2">
               BUY NOW
@@ -165,17 +165,17 @@ export const Shirt = () => {
           </div>
         </div>
         <div class="card">
-          <img src={product.shirt6.image} class="card-image" alt="images" />
+          <img src={product.pants6.image} class="card-image" alt="images" />
           <div class="card-body">
-            <h5 class="card-title">{product.shirt6.title}</h5>
-            <p class="card-text">{product.shirt6.description}</p>
+            <h5 class="card-title text-center">{product.pants6.title}</h5>
+            <p class="card-text">{product.pants6.description}</p>
             <div className="card-section">
               <div className="price-div">
                 <p class="card-text text-warning fw-bold ">
                   <span class="before-price">
-                    ${product.shirt6.beforePrice}
+                    ${product.pants6.beforePrice}
                   </span>
-                  ${product.shirt6.price}
+                  ${product.pants6.price}
                 </p>
               </div>
               <div className="icon-div">
@@ -188,7 +188,7 @@ export const Shirt = () => {
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />(
-              <span>{product.shirt6.rating} reviews</span>)
+              <span>{product.pants7.rating} reviews</span>)
             </div>
             <button type="button" class="btn btn-warning mt-2">
               BUY NOW
@@ -196,17 +196,17 @@ export const Shirt = () => {
           </div>
         </div>
         <div class="card">
-          <img src={product.shirt7.image} class="card-image" alt="images" />
+          <img src={product.pants7.image} class="card-image" alt="images" />
           <div class="card-body">
-            <h5 class="card-title">{product.shirt7.title}</h5>
-            <p class="card-text">{product.shirt7.description}</p>
+            <h5 class="card-title text-center">{product.pants7.title}</h5>
+            <p class="card-text">{product.pants7.description}</p>
             <div className="card-section">
               <div className="price-div">
                 <p class="card-text text-warning fw-bold ">
                   <span class="before-price">
-                    ${product.shirt7.beforePrice}
+                    ${product.pants7.beforePrice}
                   </span>
-                  ${product.shirt7.price}
+                  ${product.pants7.price}
                 </p>
               </div>
               <div className="icon-div">
@@ -219,25 +219,25 @@ export const Shirt = () => {
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />(
-              <span>{product.shirt7.rating} reviews</span>)
+              <span>{product.pants7.rating} reviews</span>)
             </div>
-            <button type="button" class="btn btn-warning mt-1">
+            <button type="button" class="btn btn-warning mt-2">
               BUY NOW
             </button>
           </div>
         </div>
         <div class="card">
-          <img src={product.shirt8.image} class="card-image" alt="images" />
+          <img src={product.pants7.image} class="card-image" alt="images" />
           <div class="card-body">
-            <h5 class="card-title">{product.shirt8.title}</h5>
-            <p class="card-text">{product.shirt8.description}</p>
+            <h5 class="card-title text-center">{product.pants7.title}</h5>
+            <p class="card-text">{product.pants7.description}</p>
             <div className="card-section">
               <div className="price-div">
                 <p class="card-text text-warning fw-bold ">
                   <span class="before-price">
-                    ${product.shirt8.beforePrice}
+                    ${product.pants7.beforePrice}
                   </span>
-                  ${product.shirt8.price}
+                  ${product.pants7.price}
                 </p>
               </div>
               <div className="icon-div">
@@ -250,14 +250,15 @@ export const Shirt = () => {
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />
               <BiSolidStar className="start-icon" />(
-              <span>{product.shirt8.rating} reviews</span>)
+              <span>{product.pants7.rating} reviews</span>)
             </div>
-            <button type="button" class="btn btn-warning mt-1">
+            <button type="button" className="btn btn-warning mt-2">
               BUY NOW
             </button>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
+

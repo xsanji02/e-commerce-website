@@ -47,6 +47,22 @@ export default {
     price: 400,
     rating: 209,
   },
+  gadget7: {
+    image: "./images/gadget7.png",
+    title: "Playstation 5",
+    description: "Some text describing this gadget",
+    beforePrice: 1200,
+    price: 1150,
+    rating: 467,
+  },
+  gadget8: {
+    image: "./images/gadget8.png",
+    title: "Nintendo Switch",
+    description: "Some text describing this gadget",
+    beforePrice: 570,
+    price: 500,
+    rating: 889,
+  },
   pants1: {
     image: "./images/pants1.png",
     title: "Ripped Jeans blue",
@@ -159,6 +175,14 @@ export default {
     price: 12,
     rating: 375,
   },
+  shirt8: {
+    image: "./images/shirt8.png",
+    title: "Blue Sando Peace and Love",
+    description: "Some text describing this shirt",
+    beforePrice: 14,
+    price: 12,
+    rating: 375,
+  },
   shoes1: {
     image: "./images/shoes1.png",
     title: "Converse black",
@@ -209,7 +233,7 @@ export default {
   },
   shoes7: {
     image: "./images/shoes7.png",
-    title: "",
+    title: "Formal Brown Shoes",
     description: "Some text describing this shoes",
     beforePrice: 40,
     price: 30,
@@ -217,7 +241,7 @@ export default {
   },
   shoes8: {
     image: "./images/shoes8.png",
-    title: "",
+    title: "Running shoes grey",
     description: "Some text describing this shoes",
     beforePrice: 57,
     price: 55,
