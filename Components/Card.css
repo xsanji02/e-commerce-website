@@ -4,23 +4,13 @@
     box-sizing: border-box;
 }
 
-
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    padding: 2rem;
-}
-
 .card {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 450px;
-    margin: 5px;
-    overflow: hidden;
+    width: 17rem;
+    height: 27rem;
+    padding-top: 1rem;
 }
 
 .before-price {
@@ -28,8 +18,8 @@
     text-decoration: line-through;
     font-size: .72rem;
     margin-right: 1.5px;
-
 }
+
 
 .card-image{
     width: 200px;
@@ -48,7 +38,7 @@
 }
 
 .icon-div {
-    margin-left: 2rem;
+    margin-left: 7rem;
 }
 
 .button-cart {
@@ -66,30 +56,6 @@
     font-weight: 600;
 }
 
-.navigation-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 45rem;
-    border: 2px solid black;
-    width: 35rem;
-    height: 2.5rem;
-    list-style-type: none;
-    text-decoration:wavy;
-
-}
-
-.navigation {
-    margin-top: 2rem;
-}
-
-.navigation > li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 3rem;
-    font-weight: 600;
-    font-size: large;
-    background-color: red;
-    text-decoration: none;
+.card-title {
+    font-size: 1.3rem;
 }

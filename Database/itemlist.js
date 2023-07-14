@@ -1,5 +1,5 @@
-export default {
-  gadget1: {
+export default [
+  {
     image: "./images/gadget1.png",
     title: "Samsung Galaxy",
     description: "Some text describing this gadget",
@@ -7,7 +7,7 @@ export default {
     price: 1000,
     rating: 4.9,
   },
-  gadget2: {
+  {
     image: "./images/gadget2.png",
     title: "Iphone 14 PRO MAX",
     description: "Some text describing this gadget",
@@ -15,7 +15,7 @@ export default {
     price: 1200,
     rating: 5,
   },
-  gadget3: {
+  {
     image: "./images/gadget3.png",
     title: "HP LAPTOPS",
     description: "Some text describing this gadget",
@@ -23,23 +23,23 @@ export default {
     price: 700,
     rating: 101,
   },
-  gadget4: {
+  {
     image: "./images/gadget4.png",
-    title: "Dell LAPTOPS",
+    title: "Dell Laptop",
     description: "Some text describing this gadget",
     beforePrice: 1200,
     price: 1000,
     rating: 95,
   },
-  gadget5: {
+  {
     image: "./images/gadget5.png",
-    title: "CANON camera",
+    title: "Canon Camera",
     description: "Some text describing this gadget",
     beforePrice: 940,
     price: 900,
     rating: 24,
   },
-  gadget6: {
+  {
     image: "./images/gadget6.png",
     title: "SONY camera",
     description: "Some text describing this gadget",
@@ -47,7 +47,7 @@ export default {
     price: 400,
     rating: 209,
   },
-  gadget7: {
+  {
     image: "./images/gadget7.png",
     title: "Playstation 5",
     description: "Some text describing this gadget",
@@ -55,7 +55,7 @@ export default {
     price: 1150,
     rating: 467,
   },
-  gadget8: {
+  {
     image: "./images/gadget8.png",
     title: "Nintendo Switch",
     description: "Some text describing this gadget",
@@ -63,7 +63,7 @@ export default {
     price: 500,
     rating: 889,
   },
-  pants1: {
+  {
     image: "./images/pants1.png",
     title: "Ripped Jeans blue",
     description: "Some text describing this jeans",
@@ -71,7 +71,7 @@ export default {
     price: 12,
     rating: 400,
   },
-  pants2: {
+  {
     image: "./images/pants2.png",
     title: "Blue Jeans Little Ripped",
     description: "Some text describing this jeans",
@@ -79,7 +79,7 @@ export default {
     price: 8,
     rating: 1000,
   },
-  pants3: {
+  {
     image: "./images/pants3.png",
     title: "Denim Pants",
     description: "Some text describing this jeans",
@@ -87,7 +87,7 @@ export default {
     price: 16,
     rating: 790,
   },
-  pants4: {
+  {
     image: "./images/pants4.png",
     title: "Whine Denim Pants",
     description: "Some text describing this jeans",
@@ -95,7 +95,7 @@ export default {
     price: 10,
     rating: 550,
   },
-  pants5: {
+  {
     image: "./images/pants5.png",
     title: "James Jeans",
     description: "Some text describing this jeans",
@@ -103,7 +103,7 @@ export default {
     price: 10,
     rating: 879,
   },
-  pants6: {
+  {
     image: "./images/pants6.png",
     title: "Khaki Formal Pants",
     description: "Some text describing this jeans",
@@ -111,7 +111,7 @@ export default {
     price: 30,
     rating: 600,
   },
-  pants7: {
+  {
     image: "./images/pants7.png",
     title: "Dark blue Formal Pants",
     description: "Some text describing this jeans",
@@ -119,7 +119,7 @@ export default {
     price: 29,
     rating: 299,
   },
-  shirt1: {
+  {
     image: "./images/shirt1.png",
     title: "Hoodie Grey",
     description: "Some text describing this shirt",
@@ -127,7 +127,7 @@ export default {
     price: 9,
     rating: 205,
   },
-  shirt2: {
+  {
     image: "./images/shirt2.png",
     title: "Hawaian T-shirt white",
     description: "Some text describing this shirt",
@@ -135,7 +135,7 @@ export default {
     price: 7,
     rating: 780,
   },
-  shirt3: {
+  {
     image: "./images/shirt3.png",
     title: "Reform black shirt",
     description: "Some text describing this shirt",
@@ -143,7 +143,7 @@ export default {
     price: 10,
     rating: 670,
   },
-  shirt4: {
+  {
     image: "./images/shirt4.png",
     title: "Joker Black and White",
     description: "Some text describing this shirt",
@@ -151,7 +151,7 @@ export default {
     price: 15,
     rating: 498,
   },
-  shirt5: {
+  {
     image: "./images/shirt5.png",
     title: "Yeezy t-shirt",
     description: "Some text describing this shirt",
@@ -159,7 +159,7 @@ export default {
     price: 9,
     rating: 1040,
   },
-  shirt6: {
+  {
     image: "./images/shirt6.png",
     title: "Hoodie Trasher",
     description: "Some text describing this shirt",
@@ -167,7 +167,7 @@ export default {
     price: 18,
     rating: 935,
   },
-  shirt7: {
+  {
     image: "./images/shirt7.png",
     title: "Polo Blue",
     description: "Some text describing this shirt",
@@ -175,7 +175,7 @@ export default {
     price: 12,
     rating: 375,
   },
-  shirt8: {
+  {
     image: "./images/shirt8.png",
     title: "Blue Sando Peace and Love",
     description: "Some text describing this shirt",
@@ -183,7 +183,7 @@ export default {
     price: 12,
     rating: 375,
   },
-  shoes1: {
+  {
     image: "./images/shoes1.png",
     title: "Converse black",
     description: "Some text describing this shoes",
@@ -191,7 +191,7 @@ export default {
     price: 59,
     rating: 390,
   },
-  shoes2: {
+  {
     image: "./images/shoes2.png",
     title: "Red rubber shoes",
     description: "Some text describing this shoes",
@@ -199,7 +199,7 @@ export default {
     price: 50,
     rating: 839,
   },
-  shoes3: {
+  {
     image: "./images/shoes3.png",
     title: "Orange and white shoes",
     description: "Some text describing this shoes",
@@ -207,7 +207,7 @@ export default {
     price: 60,
     rating: 1240,
   },
-  shoes4: {
+  {
     image: "./images/shoes4.png",
     title: "High Heels pink",
     description: "Some text describing this shoes",
@@ -215,7 +215,7 @@ export default {
     price: 55,
     rating: 904,
   },
-  shoes5: {
+  {
     image: "./images/shoes5.png",
     title: "Gray Rubber shoes",
     description: "Some text describing this shoes",
@@ -223,7 +223,7 @@ export default {
     price: 60,
     rating: 504,
   },
-  shoes6: {
+  {
     image: "./images/shoes6.png",
     title: "Blue Sandals",
     description: "Some text describing this shoes",
@@ -231,7 +231,7 @@ export default {
     price: 48,
     rating: 102,
   },
-  shoes7: {
+  {
     image: "./images/shoes7.png",
     title: "Formal Brown Shoes",
     description: "Some text describing this shoes",
@@ -239,7 +239,7 @@ export default {
     price: 30,
     rating: 950,
   },
-  shoes8: {
+  {
     image: "./images/shoes8.png",
     title: "Running shoes grey",
     description: "Some text describing this shoes",
@@ -247,4 +247,4 @@ export default {
     price: 55,
     rating: 123,
   },
-};
+];

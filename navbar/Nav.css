@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+.form-control {
+    width: 15rem;
+}
+
 .nav-container {
     height: 7vh;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .nav-content {
@@ -25,7 +30,5 @@
 
 .account {
     cursor: pointer;
-    width: 3rem;
-    height: 2.3rem;
     color: rgb(255, 193, 7);
 }

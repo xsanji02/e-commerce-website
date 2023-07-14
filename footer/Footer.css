@@ -4,31 +4,48 @@
   box-sizing: border-box;
 }
 
+footer {
+  margin-top: 5rem;
+  background-color: rgb(233, 236, 239);
+  height: 35vh;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
   width: 15rem;
+  margin-top: 1rem;
 }
 
 .payment-logo {
   width: 4.5rem;
-  height: 2.3rem;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  aspect-ratio: 3/2;
 }
 
 .follow-logo {
   margin-right: 1rem;
+  color: black;
 }
 
-.footer-content h4 {
+.footer-content > h4 {
   margin-bottom: 1.5rem;
 }
 
 footer > p {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
+  font-weight: 650;
+}
+
+.payment-div {
+  margin-top: 1rem;
 }
